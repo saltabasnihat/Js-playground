@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Palace</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Movie Palace</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Search Movies</a></li>
+        <li><a href="mymovies.html">My Movie List</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+      <button class="logout-btn" onclick="location.href='loginpage.html'">Logout</button>
+
+
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="search-container">
+            <input type="text" placeholder="Magical search" id="movie-name" value="" />
+            <button id="search-btn">Search</button>
+          </div>
+          <br>
+          <div id="last-searched"></div>
+        </div>
+      </div>
+      <div id="result"></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="social-media">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <div>
+      <p>&copy; 2023 Movie Palace. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="key.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/js/all.min.js"></script>
+</body>
+
+</html>
